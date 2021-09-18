@@ -79,9 +79,9 @@ color: #f953c6;
        justify-content: center;
        align-items: center;
        flex-direction: column;
-       height: 100%;    
-       margin-top: 50px;
-       overflow: hidden;
+       height: auto;    
+       margin-top: 100px;
+   
    }
    .section2 h1{
    font-size: 40px;
@@ -162,4 +162,199 @@ transition: all 0.8s;
     background: linear-gradient(to right, #f953c6, #b91d73);
     height: 300px;
     margin: -50px 0px 0px -50px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;        
+    overflow: hidden;
+    margin-top: 50px;
+   margin-top: 100px;
+}
+
+.section3 .box {
+    display: flex;
+    justify-content: center;
+
+}
+.section3 .box .described{
+    width: 50%;    
+display: flex;
+align-items: center;
+
+
+flex-direction: column;
+}
+.section3 .box .img{
+    width: 50%;
+    margin-right: 20px;
+
+}
+.section3 .box .img img{
+    width: 100%;
+    height: 100%;
+
+}
+.section3 .box .described span:nth-child(1){
+    font-size: 40px;
+width: 100%;
+
+    
+}
+.section3 .box .described span:nth-child(2){
+    font-size: 20px;
+width: 100%;
+margin-top: 20px;
+    
+}
+.section3 .box .described a{
+  width: 50%;
+  height: 40px;
+  margin-top: 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  background: #f953c6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f953c6, #b91d73); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f953c6, #b91d73);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-weight: bold;
+    
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;        
+    overflow: hidden;
+    margin-top: 50px;
+   margin-top: 150px;
+}
+
+.section4 .box {
+    display: flex;
+    justify-content: center;
+
+}
+.section4 .box .described{
+    width: 50%;    
+display: flex;
+align-items: center;
+
+
+flex-direction: column;
+}
+.section4 .box .img{
+    width: 50%;
+    margin-right: 20px;
+
+}
+.section4 .box .img img{
+    width: 100%;
+    height: 100%;
+
+}
+.section4 .box .described span:nth-child(1){
+    font-size: 40px;
+width: 100%;
+
+    
+}
+.section4 .box .described span:nth-child(2){
+    font-size: 20px;
+width: 100%;
+margin-top: 20px;
+    
+}
+.section4 .box .described a{
+  width: 50%;
+  height: 40px;
+  margin-top: 50px;
+  border-radius: 30px;
+  text-decoration: none;
+  background: #f953c6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f953c6, #b91d73); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f953c6, #b91d73);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-weight: bold;
+    
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;       
+    margin-top: 100px;
+
+}
+.slider .slick-prev::before{
+font-size: 60px;
+  color: #000;
+}
+.slider .slick-next::before{
+    font-size: 60px;
+    color: #000;
+  }
+ .slick-active{
+      display: flex!important;
+      justify-content: center!important;
+      align-items: center!important;
+  }
+  .slick-dots{
+      display: none!important;
+  }
+  .slider .comments{     
+      height: auto;
+      display: flex!important;
+      justify-content: center;
+      align-items: center;
+     
+     
+  }
+  .slider .comments .users{     
+   height: 100%;
+width: 300px;
+
+margin: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 30px;
+}
+.slider .comments .users img{     
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin-bottom: 20px;
+ }
+  .slider .comments .users span:nth-child(2){
+
+ font-size: 26px;
+ margin-bottom: 20px;
+}
+.slider .comments .users span:nth-child(3){
+
+    font-size: 18px;
+   
+   }
+ .slider .comments .users #star{
+     height: 40px;
+     width: 100%;
+     border-radius: 0;
+ }
+ .slider .comments .users #quotation{
+    height: 20px;
+    width: 20px;
+    border-radius: 0;
 }
