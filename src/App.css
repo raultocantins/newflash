@@ -18,3 +18,9 @@
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
+@media (max-width:500px){ 
+  .App{
+      width: 100%;
+  }
+}

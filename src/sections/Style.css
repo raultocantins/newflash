@@ -1,6 +1,13 @@
 .box{
     width: 70%;
 }
+
+@media (max-width:600px){
+    .box{
+        width: 100vw!important;
+    }
+    
+}
 .appbar{
     display: flex;
     justify-content: space-between;
@@ -299,7 +306,7 @@ font-weight: bold;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;       
+    height: 80vh;       
     margin-top: 250px;
    
 
@@ -456,3 +463,49 @@ justify-content: center;
 align-items: center;
   
 }
+
+.score{
+   height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 50px;
+}
+.score h1{
+font-size: 40px;
+font-weight: 400;
+
+}
+.score .box{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.score .box #card{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 50px;
+ border: 5px solid #f4f4f4;
+
+ border-radius: 30px;
+padding: 50px;
+
+    }
+.score .box #card span:nth-child(1){
+    font-size: 60px;
+    font-weight: bolder;
+    color: #b91d73;
+    }
+    .score .box #card span:nth-child(2){
+        font-size: 30px;
+        }
+        .score .box #card:hover{
+           transition: all 0.5s;
+            border: 5px solid #e9e5e5;
+          
+           
+               }
