@@ -1,0 +1,20 @@
+
+#whatsapp{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+  bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    transform: scale(1.0);
+}
+#whatsapp:hover{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+  bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}

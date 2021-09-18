@@ -7,23 +7,22 @@ const Section2 = function () {
     return (
         <section className="section2">
 
-            <h1>Escolha a rede social que você quer impulsionar</h1>
-            <span>Simply choose which service you require below and we will get working for you immediately!</span>
+            <h1>Impulsionando Milhares de Pessoas</h1>
             <div className="box">
 
                 <div id="card">
-                    <span>Likes</span>
-                    <span>Buy Instagram likes from Twicsy easily and securely.</span>
+                    <span>+240.000</span>
+                    <span>Clientes</span>
                     <img src={Like} alt="like" />
                 </div>
                 <div id="card">
-                    <span>Followers</span>
-                    <span>Buy Instagram followers from Twicsy easily and securely.</span>
+                    <span>+770.000</span>
+                    <span>Pedidos</span>
                     <img src={Followers} alt="followers" />
                 </div>
                 <div id="card">
-                    <span>Views</span>
-                    <span>Buy Instagram views from Twicsy easily and securely.</span>
+                    <span>+3.616</span>
+                    <span>Processando Hoje</span>
                     <img src={Visibilidade} alt="visibilidade" />
                 </div>
             </div>
