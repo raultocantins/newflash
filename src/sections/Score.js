@@ -1,5 +1,6 @@
 import React from 'react'
 import './Style.css'
+import Vector from '../assets/vector.png'
 const Score = function () {
     return (
         <section className="score">
@@ -23,10 +24,8 @@ const Score = function () {
 
                     </div>
                 </div>
-                <div className="rocket">
-                    <h1>
-                        foguete
-                    </h1>
+                <div className="vector">
+                    <img src={Vector} alt="vector" />
                 </div>
             </div>
         </section>

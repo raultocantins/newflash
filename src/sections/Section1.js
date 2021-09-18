@@ -10,7 +10,7 @@ const Section1 = function () {
                 <div className="appbar">
                     <img src={Logo} alt="logo" />
                     <div className="groupButtons">
-                        <a href="/">Login</a>
+                        <a href="/" id="login">Login</a>
                         <a href="/">Começe Já</a>
                     </div>
                 </div>

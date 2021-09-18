@@ -16,9 +16,9 @@ function App() {
       <Section3 />
       <Section4 />
       <Section6 />
+      <Score />
       <Comentarios />
       <Section5 />
-      <Score />
       <Footer />
      <a href="/">
      <img src={Whatsapp} alt="whatsapp" id="whatsapp"/>
