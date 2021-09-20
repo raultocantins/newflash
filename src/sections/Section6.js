@@ -32,9 +32,9 @@ const Section6 = function () {
                 <div className="described">
                     <span>Escolha a rede social que você quer impulsionar</span>
                     <span>É um processo totalmente legal e 100% seguro. Basta escolher o pacote de sua preferência e seguir nossas etapas fáceis de checkout.</span>
-                <a href="/">
-                    Registrar-se Grátis
-                </a>
+                    <a href="/painel/signup">
+                        Registrar-se Grátis
+                    </a>
                 </div>
 
             </div>

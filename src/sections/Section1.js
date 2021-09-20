@@ -5,13 +5,13 @@ import Girl from '../assets/girl.jpg'
 const Section1 = function () {
     return (
         <section className="section1">
-    
+
             <div className="box">
                 <div className="appbar">
                     <img src={Logo} alt="logo" />
                     <div className="groupButtons">
-                        <a href="/" id="login">Login</a>
-                        <a href="/">Começe Já</a>
+                        <a href="/painel" id="login">Login</a>
+                        <a href="/painel/signup">Começe Já</a>
                     </div>
                 </div>
                 <div className="content">
@@ -22,7 +22,7 @@ const Section1 = function () {
                         <span>
                             SOMOS A PLATAFORMA DE MARKETING DIGITAL <strong>MAIS COMPLETA</strong> DO BRASIL, COM SERVIÇOS PARA TODAS AS <strong>REDES SOCIAIS.</strong>
                         </span>
-                        <a href="/">
+                        <a href="/painel/signup">
                             Inscrever-se Já
                         </a>
                     </div>

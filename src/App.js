@@ -10,7 +10,7 @@ import Section6 from './sections/Section6.js'
 import Comentarios from './sections/Comentarios.js'
 import Footer from './sections/Footer.js'
 function App() {
-  
+
   return (
     <div className="App">
       <Section1 />
@@ -21,9 +21,9 @@ function App() {
       <Comentarios />
       <Section5 />
       <Footer />
-     <a href="/">
-     <img src={Whatsapp} alt="whatsapp" id="whatsapp"/>
-     </a>
+      <a href="/">
+        <img src={Whatsapp} alt="whatsapp" id="whatsapp" />
+      </a>
     </div>
   );
 }
