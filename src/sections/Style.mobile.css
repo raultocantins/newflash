@@ -1,0 +1,137 @@
+@media (max-width: 650px) {
+  .box {
+    width: 100% !important;
+  }
+  .section1 .appbar {
+    justify-content: center;
+  }
+  .section1 .box {
+    height: 80vh;
+  }
+  .section1 .box .appbar a {
+    display: none;
+  }
+  .section1 .box .content {
+    width: 100%;
+  }
+  .section1 .box .content #described {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .box .content #described span:nth-child(1) {
+    font-size: 30px;
+  }
+  .section1 .box .content #described span:nth-child(2) {
+    font-size: 15px;
+  }
+
+  .section1 .box .content .imgsDescribed {
+    display: none;
+  }
+
+  .section3 .box .img {
+    display: none;
+  }
+  .section3 .box .described {
+    width: 90% !important;
+  }
+  .section3 .box .described span:nth-child(1) {
+    font-size: 30px !important;
+  }
+  .section3 .box .described span:nth-child(2) {
+    font-size: 18px !important;
+  }
+  .section4 .box .img {
+    display: none;
+  }
+  .section4 .box .described {
+    width: 90% !important;
+  }
+  .section4 .box .described span:nth-child(1) {
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+  .section4 .box .described span:nth-child(2) {
+    font-size: 18px !important;
+  }
+
+  .section6 .box {
+    justify-content: center;
+  }
+  .section6 .box .imgs {
+    display: none !important;
+  }
+
+  .section6 .box .described {
+    width: 90% !important;
+  }
+  .section6 .box .described span:nth-child(1) {
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+  .comments {
+    width: 100% !important;
+    height: 60vh !important;
+  }
+  .comments .users {
+    width: auto !important;
+    margin: 10px !important;
+  }
+  .comments .users:nth-child(3) {
+    display: none !important;
+  }
+  .comments .users span:nth-child(2) {
+    font-size: 15px !important;
+  }
+  .comments .users span:nth-child(4) {
+    font-size: 15px !important;
+  }
+  .comments .users #quotation {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .comments .users img {
+    height: 100px !important;
+    width: 100px !important;
+  }
+
+  .slider .slick-prev::before {
+    display: none;
+  }
+
+  .slider .slick-next::before {
+    display: none;
+  }
+  .section5 {
+    margin-top: 50px !important;
+  }
+  .section5 .box {
+    width: 90% !important;
+  }
+  .section5 .box span {
+    font-size: 30px !important;
+    font-weight: bold;
+  }
+  .section5 .box .accordion {
+    overflow: hidden;
+  }
+  .accordion__item {
+    width: 80%;
+  }
+  .score {
+    height: 80vh !important;
+    overflow: hidden !important;
+  }
+  .score h1 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .score .box .cards #card {
+    padding: 0;
+    margin: 5px;
+  }
+  .score .box .vector{
+    display: none !important;
+  }
+}

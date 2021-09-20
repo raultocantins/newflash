@@ -20,8 +20,9 @@
   transition: all 0.5s;
 }
 
-@media (max-width:500px) {
+@media (max-width:650px) {
   .App {
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
   }
 }
