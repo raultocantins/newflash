@@ -21,7 +21,7 @@ function App() {
       <Comentarios />
       <Section5 />
       <Footer />
-      <a href="/">
+      <a href="https://api.whatsapp.com/send/?phone=5563992432379&text&app_absent=0">
         <img src={Whatsapp} alt="whatsapp" id="whatsapp" />
       </a>
     </div>

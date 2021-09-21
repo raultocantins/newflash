@@ -1,12 +1,13 @@
 @media (max-width: 650px) {
-  .box {
-    width: 100% !important;
-  }
+.section1{
+  width: 100%!important;
+}
   .section1 .appbar {
     justify-content: center;
   }
   .section1 .box {
     height: 80vh;
+    width: 100%;
   }
   .section1 .box .appbar a {
     display: none;
@@ -29,7 +30,9 @@
   .section1 .box .content .imgsDescribed {
     display: none;
   }
-
+  .section3 .box {
+    width: 100%;
+  }
   .section3 .box .img {
     display: none;
   }
@@ -41,6 +44,9 @@
   }
   .section3 .box .described span:nth-child(2) {
     font-size: 18px !important;
+  }
+  .section4 .box {
+    width: 100%;
   }
   .section4 .box .img {
     display: none;
@@ -55,9 +61,14 @@
   .section4 .box .described span:nth-child(2) {
     font-size: 18px !important;
   }
+  .section6{
+    margin-top: 100px!important;
+    margin-bottom: 50px!important;
+  }
 
   .section6 .box {
     justify-content: center;
+    width: 100%!important;
   }
   .section6 .box .imgs {
     display: none !important;
@@ -76,7 +87,7 @@
   }
   .comments .users {
     width: auto !important;
-    margin: 10px !important;
+    margin: 20px !important;
   }
   .comments .users:nth-child(3) {
     display: none !important;
@@ -103,6 +114,12 @@
   .slider .slick-next::before {
     display: none;
   }
+  .slider {
+   margin-top:20px!important;
+  }
+  .slider .box{
+    width: 100%!important;
+  }
   .section5 {
     margin-top: 50px !important;
   }
@@ -117,11 +134,27 @@
     overflow: hidden;
   }
   .accordion__item {
-    width: 80%;
+    width: 90%;
   }
   .score {
     height: 80vh !important;
     overflow: hidden !important;
+    padding-bottom: 0!important;
+  }
+  .score .box{
+    width: 100%;
+  }
+  .score .box .cards{
+    width: 100%!important;
+  }
+  .score .box .cards #card{
+    width: 90%;
+    display: flex;
+   justify-content: center!important;
+   align-items: center!important;
+  }
+  .score .box .cards #card span:nth-child(1){
+    font-size: 35px;
   }
   .score h1 {
     font-size: 30px !important;
@@ -134,4 +167,31 @@
   .score .box .vector{
     display: none !important;
   }
+  .footer .box .card span:nth-child(1){
+    width: 100%!important;
+    text-align: center;
+  }
+  .footer .box .card span:nth-child(2){
+    display: none;
+
+  }
+  .footer .box .card {
+    justify-content: center!important;
+height: 50px!important;
+width: 100%!important;
+align-items: center!important;
+padding: 0px!important;
+  }
+  .footer .box {
+    flex-direction: column;
+
+  }
+  .footer .card span{
+   text-align: center;
+
+  }
+  .footer .card span{
+    text-align: center;
+    
+   }
 }
