@@ -1,6 +1,7 @@
 @media (max-width: 650px) {
 .section1{
   width: 100%!important;
+  overflow: hidden;
 }
   .section1 .appbar {
     justify-content: center;
@@ -8,17 +9,23 @@
   .section1 .box {
     height: 80vh;
     width: 100%;
+   
   }
   .section1 .box .appbar a {
     display: none;
   }
   .section1 .box .content {
     width: 100%;
+flex-direction: column;
+position: relative;
+
   }
   .section1 .box .content #described {
     width: 90%;
     justify-content: center;
     align-items: center;
+ position: absolute;
+ z-index: 6;
   }
   .section1 .box .content #described span:nth-child(1) {
     font-size: 30px;
@@ -28,8 +35,14 @@
   }
 
   .section1 .box .content .imgsDescribed {
-    display: none;
+ height: 100%;
+ position: absolute;
+ z-index: 5;
   }
+  .section1 .box .content .imgsDescribed img{
+    height: 100%;
+    opacity: 0.5;
+     }
   .section3 .box {
     width: 100%;
   }
@@ -69,10 +82,16 @@
   .section6 .box {
     justify-content: center;
     width: 100%!important;
+    flex-direction: column-reverse;
   }
   .section6 .box .imgs {
-    display: none !important;
+  width: 100%!important;
   }
+  .section6 .box .imgs div img {
+   width: 100px;
+   height: 100px;
+    }
+    
 
   .section6 .box .described {
     width: 90% !important;
