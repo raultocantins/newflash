@@ -267,6 +267,7 @@ a:hover {
   overflow: hidden;
   margin-top: 50px;
   margin-top: 150px;
+  border-radius: 10px;
 }
 .section4 .video{
   width:50%;
@@ -380,6 +381,14 @@ transition: all 0.4s;
   color: #fff !important;
 }
 
+.footer .box .accordion__button {
+  border-radius: 30px !important;
+  margin: 10px 0px !important;
+
+background: transparent!important;
+  font-weight: bold;
+  color: #000 !important;
+}
 .accordion__item {
   border: none !important;
 }
@@ -481,26 +490,43 @@ transition: all 0.4s;
   width: 50%;
 }
 
-.section6 .box .imgs {
+.section6 .box .slider{
   display: flex;
+height: 100px;
+  width: 100%;
+  
+  margin-top: 50px!important;
+  margin-bottom: 200px;
+}
+.section6 .box .slider div{
+
+height: 100%;
+  width: 100%;
+  display: flex!important;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 50%;
+
+  
+}
+.section6 .box .slider div img{
+
+width: 80px;
+height: 80px;
+padding: 50px;
+
+
+  
 }
 
 .section6 .box {
   display: flex;
+  flex-direction: column-reverse;
+ 
+ align-items:center;
 }
 
-.section6 .box .imgs img {
-  height: 150px;
-  width: 150px;
-  margin: 20px;
-  transform: scale(1);
-}
 
-.section6 .box .imgs img:hover {
+.section6 .box .slider div img:hover {
   transform: scale(1.1);
   transition: all 0.8s;
 }
@@ -604,41 +630,34 @@ transition: all 0.4s;
   align-items: center;
   flex-direction: column;
 }
+.footer .accordion {
+  width: 100% !important;
+}
 .footer .card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 50px;
-}
-.footer .pag {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 50px;
-  width: 70%;
-  overflow: hidden;
+  padding-bottom: 10px;
 }
 
-.footer .pag img {
-  width: 100%;
-}
-.footer .pag span {
-  font-size: 20px;
-}
 .footer .card span:nth-child(1) {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin: 50px 0px;
 }
 .footer .card span:nth-child(2) {
-  font-size: 10px;
+  font-size: 15px;
 }
 .footer .box {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50%;
+  height: auto;
+  flex-direction: column;
  
+}
+.footer .box img {
+padding-top: 50px; 
 }
 .footer .box .card {
  
@@ -668,5 +687,12 @@ transition: all 0.4s;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  display: none;
+}
+
+.btnResponsive{
+  display: none;
+}
+.menuMobile{
   display: none;
 }

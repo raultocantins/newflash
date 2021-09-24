@@ -10,7 +10,7 @@ const Section4 = function () {
     return (
         <section className="section4">
             {open ? <div className="video">
-                <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+                <ReactPlayer url='https://www.youtu.be/OBAXqWDC0n8' />
 
             </div> : ""}
             <div className="box">
